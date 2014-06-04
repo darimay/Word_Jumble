@@ -9,8 +9,18 @@ Please implement the program in a language of your choice, but refrain from usin
 Main function: word_jumble
 use case: 
 ```
+>> from jumble import word_jumble
 >> word_jumble('dog', word_list)
->> ['do', 'go', 'god']
+['do', 'go', 'god']
 ```
 
 word_list should be a list of strings.
+
+
+running the tests:
+```
+>> from jumble import test
+>> test()
+Time it took to generate the full list: 0.612 secs
+```
+should run without any assertion errors.
